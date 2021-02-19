@@ -1,0 +1,44 @@
+@font-face
+{
+	font-family: ballpark;
+	src: url(../fonts/BALLW___.TTF);
+}
+
+.top-block
+{
+	background-image: url("../img/oboi.jpg");
+	border-bottom: 4px solid #242424;
+}
+
+body
+{
+    font-size: 12px;
+    line-height: 1.5;
+    color: #808080;
+}
+
+header
+{
+	padding-top: 24px; 
+	padding-bottom: 15px;
+}
+
+ul.menu-top > li 
+{
+    display: inline; 
+    list-style: none; 
+    padding: 30px;
+}
+
+ul.menu-top > li > a
+{    
+    color: #e0e0e0;
+    text-decoration: none;  
+}
+   
+.logo
+{
+	color: #e0e0e0;
+	font-size: 36px;
+	font-family: ballpark;
+}
