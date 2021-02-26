@@ -23,17 +23,25 @@ header
 	padding-bottom: 15px;
 }
 
-ul.menu-top > li 
+ul li 
 {
-    display: inline; 
-    list-style: none; 
+    display: inline;
     padding: 30px;
+
 }
 
-ul.menu-top > li > a
+ul li a
 {    
     color: #e0e0e0;
-    text-decoration: none;  
+    text-decoration: none;
+    font-weight: bold;  
+}
+
+ul li a:hover
+{
+	color: #00ff00;
+    background-color: #666666;
+    text-decoration: none;
 }
    
 .logo
@@ -42,3 +50,5 @@ ul.menu-top > li > a
 	font-size: 36px;
 	font-family: ballpark;
 }
+
+
