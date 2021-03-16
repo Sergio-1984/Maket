@@ -1,0 +1,172 @@
+@font-face
+{
+	font-family: ballpark;
+	src: url(../fonts/BALLW___.TTF);
+}
+
+.top-block
+{
+	background-image: url("../img/oboi.jpg");
+	border-bottom: 4px solid #242424;
+}
+
+body
+{
+    font-size: 12px;
+    line-height: 1.5;
+    color: #808080;
+}
+
+header
+{
+	padding-top: 24px; 
+	padding-bottom: 15px;
+}
+
+ul li 
+{
+    display: inline;
+    padding: 20px;
+
+}
+
+ul li a
+{    
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: bold;
+    border: 5px solid transparent;  
+}
+
+ul li a:hover
+{
+	color: #00ff00;
+    background-color: #333333;
+    text-decoration: none;
+    border-color: #333333;
+	border-radius: 3px;
+	transition: 0.3s;
+}
+   
+a.logo
+{
+	color: #e0e0e0;
+	text-decoration: none;
+	display: inline;
+	font-size: 36px;
+	font-family: ballpark;
+}
+
+a.logo:hover
+{
+	color: #fff;
+	text-decoration: none;
+	display: inline;
+	font-size: 36px;
+	font-family: ballpark;
+}
+
+input[type="text"]
+{
+	width: 75%;
+}
+
+input, button 
+{
+	background: transparent;
+	border: none;
+	color: #fff;
+	font: 30pt;
+}
+
+form
+{
+	background: #2f2f2f;
+	border-radius: 9px;
+}
+
+.row
+{
+	color: #e0e0e0;
+}
+
+.row h3
+{
+	color: #fff;
+}
+
+.knopka
+{
+	background: #808080;
+	color: #fff;
+	border-radius: 3px;
+	font-weight: bold;
+	width: 130px;
+	height: 30px;
+	transition: 0.3s;
+}
+
+.knopka:hover
+{
+	background: #696969;
+}
+
+.middle-white-block
+{
+	background-color: #fff;
+	color: #333;
+}
+
+.flex-block
+{
+	display: flex;
+}
+
+.flex-item
+{
+	padding: 25px;
+	margin-top: -65px;
+	background-color: #fff;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.flex-item h4
+
+{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+.grey
+{
+	color: #8e8e8e;
+}
+
+.read-more
+{
+	color: #333;
+	size: 12px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+	text-transform: capitalize;
+}
+
+.read-more:hover
+{
+	background-color: #808080;
+	color: #fff;
+	transition: 0.5s;
+	text-decoration: none;
+	border-radius: 1px;
+}
+
+.carousel img
+{
+	height: 300px;
+}
+
+.carousel
+{
+	height: 400px;
+}
