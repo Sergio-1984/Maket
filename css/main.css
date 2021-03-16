@@ -110,5 +110,37 @@ form
 	background: #696969;
 }
 
+.middle-white-block
+{
+	background-color: #fff;
+	color: #333;
+}
 
+.flex-block
+{
+	display: flex;
+}
 
+.flex-item
+{
+	color: 15px;
+	padding: 25px;
+	margin-top: -65px;
+	background-color: #fff;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.grey
+{
+	color: #8e8e8e;
+}
+
+.read-more
+{
+	color: #333;
+	size: 12px;
+	padding-top: 17px;
+	padding-bottom: 17px;
+	text-transform: capitalize;
+}
