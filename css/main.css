@@ -85,7 +85,7 @@ form
 	border-radius: 9px;
 }
 
-.row
+.a
 {
 	color: #e0e0e0;
 }
@@ -191,6 +191,7 @@ form
     position: relative;
 }
 
+
 .tip:hover::after 
 {
     content: attr(data-title);
@@ -208,7 +209,15 @@ form
 
 footer
 {
-	color: #fff;
+	color: #8e8e8e;
 }
+
+.sots
+{
+	background-color: grey;
+	height: 50px;
+	margin: 5px;
+}
+
 
 
